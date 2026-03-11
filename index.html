@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="hero-page">
+      <header class="header">
+        <div class="center">
+          <a class="logo" href="#">Интерьер.</a>
+
+          <div class="menu">
+            <a href="#catalog" class="menu__link">Каталог</a>
+            <a href="#cart" class="menu__link">Корзина</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="hero">
+        <div class="center">
+          <h1 class="hero__title">Всё, чего заслуживает ваш дом</h1>
+          <p class="hero__subtitle">Наша мебель — ваше отражение</p>
+          <a class="hero__link" href="#catalog">Перейти в каталог</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="catalog" id="catalog">
+        <div class="center">
+          <h2 class="catalog__title">Каталог товаров</h2>
+
+          <div class="cards">
+            <div class="card">
+              <picture>
+                <source srcset="images/tatran.jpg" type="image/jpeg" />
+                <source srcset="images/tatran.png" type="image/png" />
+                <img class="card__img" src="images/products/tatran.svg" alt="Кровать TATRAN" />
+              </picture>
+              <h3 class="card__title">Кровать TATRAN</h3>
+              <p class="card__desc">Основание из полированной нержавеющей стали, придаёт оригинальный парящий эффект.</p>
+              <p class="card__price">120 000 руб.</p>
+            </div>
+
+            <div class="card">
+              <picture>
+                <source srcset="images/vilora.jpg" type="image/jpeg" />
+                <source srcset="images/vilora.png" type="image/png" />
+                <img class="card__img" src="images/products/vilora.svg" alt="Кресло VILORA" />
+              </picture>
+              <h3 class="card__title">Кресло VILORA</h3>
+              <p class="card__desc">Мягкое и уютное, создано для отдыха. Упругие подушки, приятные на ощупь ткань.</p>
+              <p class="card__price">21 000 руб.</p>
+            </div>
+
+            <div class="card">
+              <picture>
+                <source srcset="images/menu.jpg" type="image/jpeg" />
+                <source srcset="images/menu.png" type="image/png" />
+                <img class="card__img" src="images/products/menu.svg" alt="Стол MENU" />
+              </picture>
+              <h3 class="card__title">Стол MENU</h3>
+              <p class="card__desc">Европейский дуб — отличается особой прочностью и стабильностью.</p>
+              <p class="card__price">34 000 руб.</p>
+            </div>
+
+            <div class="card">
+              <picture>
+                <source srcset="images/askesta.jpg" type="image/jpeg" />
+                <source srcset="images/askesta.png" type="image/png" />
+                <img class="card__img" src="images/products/askesta.svg" alt="Кресло ASKESTA" />
+              </picture>
+              <h3 class="card__title">Кресло ASKESTA</h3>
+              <p class="card__desc">Классическая форма и современная посадка — идеальное сочетание для интерьера.</p>
+              <p class="card__price">68 000 руб.</p>
+            </div>
+
+            <div class="card">
+              <picture>
+                <source srcset="images/norman.jpg" type="image/jpeg" />
+                <source srcset="images/norman.png" type="image/png" />
+                <img class="card__img" src="images/products/norman.svg" alt="Стол NORMAN" />
+              </picture>
+              <h3 class="card__title">Стол NORMAN</h3>
+              <p class="card__desc">Плавные пропорции сочетаются с высокой прочностью и удобством в уходе.</p>
+              <p class="card__price">40 000 руб.</p>
+            </div>
+
+            <div class="card">
+              <picture>
+                <source srcset="images/nastan.jpg" type="image/jpeg" />
+                <source srcset="images/nastan.png" type="image/png" />
+                <img class="card__img" src="images/products/nastan.svg" alt="Диван NASTAN" />
+              </picture>
+              <h3 class="card__title">Диван NASTAN</h3>
+              <p class="card__desc">Современная эстетика, комфортная посадка и износостойкая обивка.</p>
+              <p class="card__price">80 000 руб.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cart" id="cart">
+        <div class="center"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="center">
+        <p class="footer__text">Сайт был сверстан Богданом Сурковым</p>
+      </div>
+    </footer>
+  </body>
+</html>
